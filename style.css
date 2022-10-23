@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 1244px;
+    height: 838px;
+    background-color: #2C3639;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 80px 60px -70px rgb(0 0 0 / 60%);
+    margin: auto;
+    flex-grow: 1;
+}
+.projects h1{
+    margin-bottom: 20px;
+    
+}
+.kotak h4{
+    position: absolute;
+    margin: 30px;
+    font-size: 30px;
+}
+.kotak p{
+    margin-top: 130px;
+}
+.kotak-kecil{
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+    position: relative;
+    bottom: 3px;
+    left: 85px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #2C3639;
+}
+.kotak-satu{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg,#fd42c5,#ff9de2);
+    border-radius: 25px;
+    margin: 20px 25px 70px 0;
+}
+.kotak-satu p{
+    margin-left: 4px;
+}
+.kotak-dua{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg,#94fbff,#0c9eec);
+    border-radius: 25px;
+    margin: 20px 25px 70px 0;
+    box-shadow: 0 0 0 10px #2C3639 ,0 0 0px 13px #47B5FF;
+}
+.kotak-dua p{
+    margin-left: 9px;
+}
+.kotak-tiga{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg,#e2c4ff,#9a2dff);
+    border-radius: 25px;
+    margin: 20px 25px 70px 0;
+}
+.kotak-tiga h4{
+    margin-top: 11px;
+}
+.kotak-tiga p{
+    position: relative;
+    bottom: 17px;
+    left: 8px;
+}
+.kotak-empat{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg,#2b6af1,#adc7ff);
+    border-radius: 25px;
+    margin: 20px 25px 70px 0;
+}
+.kotak-empat p{
+    position: relative;
+    left: 13px;
+}
+.kotak-lima{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg,#ffc3a8,#ff5c10);
+    border-radius: 25px;
+    margin: 20px 25px 70px 0;
+}
+.kotak-enam{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(112, 112, 112, 0.6);
+    border-radius: 25px;
+    margin: 20px 25px 70px 0;
+}
+.kotak{
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects{
+    flex: 1;
+    padding: 110px 70px 110px 70px;
+    box-sizing: border-box;
+    color: #fff;
+    margin-left: 90px;
+}
+.project h2{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+span{
+    font-size: 13px;
+    margin-left: 10px;
+    color: rgb(150, 150, 150);
+}
+.projects p{
+    padding-bottom: 10px;
+    color: rgb(150, 150, 150);
+}
+.container input{
+    width: 330px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 40px;
+    background-color: rgba(112, 112, 112, 0.6);
+    border: 0;
+    margin-bottom: 7px;
+}
+.kotak-lima h4{
+    margin-top: 11px;
+}
+.kotak-lima p{
+    position: relative;
+    bottom: 17px;
+    left: 7px;
+}
+.ini-sambutan {
+    margin-bottom: 25px;
+}
+.project h3{
+    margin-top: 80px;
+}
+
+
+                        /* Bagian 2 */
+
+
+.cyberpunk{
+    width: 100px;
+    height: 828px;
+    background-color: #fff;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+.ini-flex{
+    display: flex;
+}
+.bagian-dua{
+    width: 200px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: px;
+}
+.satu{
+    width: 40px;
+    height: 40px;
+    background-image: url(/img1.jpg);
+    border-radius: 50px;
+    position: relative;
+    z-index: 3;
+    left: 20px;
+    box-shadow: 0 0 0 2px rgb(255, 254, 254);
+    background-position: center;
+    background-size: 70px;
+}
+.dua{
+    width: 40px;
+    height: 40px;
+    background-image: url(/img2.jpg);
+    border-radius: 50px;
+    position: relative;
+    left: 10px;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255);
+    background-position: center;
+    background-size: 70px;
+    z-index: 2;
+}
+.tiga{
+    width: 40px;
+    height: 40px;
+    background-image: url(/img3.jpg);
+    border-radius: 50px;
+    background-position: center;
+    background-size: 70px;
+    box-shadow: 0 0 0 2px rgb(255, 255, 255);
+    position: relative;
+    left: 2px;
+    z-index: 1;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50px;
+    margin: 6px 10px;
+    border: 3px solid rgb(133, 133, 133);
+    display: flex;
+    justify-content: center;
+}
+.icon h5{
+    position: relative;
+    bottom: 6px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(133, 133, 133);
+}
+.status{
+    margin-top: 100px;
+}
+.status h3{
+    font-size: 25px;
+}
+.header h5{
+    font-size: 25px;
+}
+.header{
+    width: 470px;
+    height: 40px;
+    border-bottom: 2px solid rgb(206, 205, 205);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 45px;
+}
+.wrap{
+    padding: 30px 75px 10px 30px;
+    position: relative;
+}
+.wrap label{
+    position: relative;
+    display: block;
+    margin: 40px 0;
+    font-size: 24px;
+    cursor: pointer;
+}
+.wrap i{
+    position: absolute;
+    top: 3px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.wrap input[type="checkbox"]:checked ~ i{
+    top: 1px;
+    border-top: none;
+    border-right: none;
+    height: 15px;
+    width: 25px;
+    transform: rotate(45deg);
+}
+.wrap span{
+    position: relative;
+    left: 40px;
+    transition: .5s;
+}
+.wrap span::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ffff;
+}
+.wrap label{
+    background-color: #2C3639;
+    border: #47B5FF;
+    border-radius: 30px;
+    position: abs
+}
+.wrap p{
+    position: relative;
+    margin-bottom: 40px;
+    background-color: #0c9eec;
+}
